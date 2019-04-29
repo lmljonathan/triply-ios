@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11BA95F22600B610058DA7B /* TriplyServiceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11BA95C22600B4F0058DA7B /* TriplyServiceKit.framework */; };
+		A11BA96022600B610058DA7B /* TriplyServiceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A11BA95C22600B4F0058DA7B /* TriplyServiceKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A174AE682260262C00EAA2AF /* LMTLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174AE672260262C00EAA2AF /* LMTLabel.swift */; };
+		A1B4459D2260195800AE7FDE /* LMTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4459C2260195800AE7FDE /* LMTView.swift */; };
+		A1B4459F22601D7200AE7FDE /* LMTTripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4459E22601D7200AE7FDE /* LMTTripViewModel.swift */; };
+		A1B445A122601FDD00AE7FDE /* LMTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B445A022601FDD00AE7FDE /* LMTImageView.swift */; };
+		A1D34883225D59DD00651024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D34882225D59DD00651024 /* AppDelegate.swift */; };
+		A1D34888225D59DD00651024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D34886225D59DD00651024 /* Main.storyboard */; };
+		A1D3488A225D59DE00651024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D34889225D59DE00651024 /* Assets.xcassets */; };
+		A1D3488D225D59DE00651024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D3488B225D59DE00651024 /* LaunchScreen.storyboard */; };
+		A1D34898225D59DE00651024 /* TriplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D34897225D59DE00651024 /* TriplyTests.swift */; };
+		A1D348A3225D59DE00651024 /* TriplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D348A2225D59DE00651024 /* TriplyUITests.swift */; };
+		A1D348B1225D5A9A00651024 /* LMTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D348B0225D5A9A00651024 /* LMTHomeViewController.swift */; };
+		A1D34936225D5F2C00651024 /* LMTTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D34935225D5F2C00651024 /* LMTTripViewController.swift */; };
+		A1D3493D225D61B100651024 /* LMTHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D3493C225D61B100651024 /* LMTHomeViewModel.swift */; };
+		A1D34940225D632A00651024 /* LMTTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D3493F225D632A00651024 /* LMTTableView.swift */; };
+		A1D34946225D65BE00651024 /* LMTTripCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D34945225D65BE00651024 /* LMTTripCellViewModel.swift */; };
+		A1D34949225D65ED00651024 /* LMTTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D34948225D65ED00651024 /* LMTTripTableViewCell.swift */; };
+		A1D3494B225D66D600651024 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D3494A225D66D600651024 /* Default-568h@2x.png */; };
+		A1D3494D225D6DA900651024 /* LMTBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D3494C225D6DA900651024 /* LMTBinding.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A11BA95B22600B4F0058DA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11BA95622600B4E0058DA7B /* TriplyServiceKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A11BA93C22600B4E0058DA7B;
+			remoteInfo = TriplyServiceKit;
+		};
+		A11BA95D22600B4F0058DA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11BA95622600B4E0058DA7B /* TriplyServiceKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A11BA94522600B4E0058DA7B;
+			remoteInfo = TriplyServiceKitTests;
+		};
+		A11BA96122600B610058DA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A11BA95622600B4E0058DA7B /* TriplyServiceKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A11BA93B22600B4E0058DA7B;
+			remoteInfo = TriplyServiceKit;
+		};
+		A1D34894225D59DE00651024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D34877225D59DD00651024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D3487E225D59DD00651024;
+			remoteInfo = Triply;
+		};
+		A1D3489F225D59DE00651024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D34877225D59DD00651024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D3487E225D59DD00651024;
+			remoteInfo = Triply;
+		};
+		A1D3492D225D5DAF00651024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D34928225D5DAF00651024 /* LMTRequestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1D34903225D5C5100651024;
+			remoteInfo = LMTRequestKit;
+		};
+		A1D3492F225D5DAF00651024 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D34928225D5DAF00651024 /* LMTRequestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1D3490C225D5C5100651024;
+			remoteInfo = LMTRequestKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1D348D1225D5ACF00651024 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A11BA96022600B610058DA7B /* TriplyServiceKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A11BA95622600B4E0058DA7B /* TriplyServiceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TriplyServiceKit.xcodeproj; path = TriplyServiceKit/TriplyServiceKit.xcodeproj; sourceTree = "<group>"; };
+		A174AE672260262C00EAA2AF /* LMTLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTLabel.swift; sourceTree = "<group>"; };
+		A1B4459C2260195800AE7FDE /* LMTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTView.swift; sourceTree = "<group>"; };
+		A1B4459E22601D7200AE7FDE /* LMTTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTripViewModel.swift; sourceTree = "<group>"; };
+		A1B445A022601FDD00AE7FDE /* LMTImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTImageView.swift; sourceTree = "<group>"; };
+		A1D3487F225D59DD00651024 /* Triply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D34882225D59DD00651024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1D34887225D59DD00651024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1D34889225D59DE00651024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1D3488C225D59DE00651024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1D3488E225D59DE00651024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D34893225D59DE00651024 /* TriplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D34897225D59DE00651024 /* TriplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriplyTests.swift; sourceTree = "<group>"; };
+		A1D34899225D59DE00651024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D3489E225D59DE00651024 /* TriplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D348A2225D59DE00651024 /* TriplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriplyUITests.swift; sourceTree = "<group>"; };
+		A1D348A4225D59DE00651024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D348B0225D5A9A00651024 /* LMTHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTHomeViewController.swift; sourceTree = "<group>"; };
+		A1D34928225D5DAF00651024 /* LMTRequestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LMTRequestKit.xcodeproj; path = LMTRequestKit/LMTRequestKit.xcodeproj; sourceTree = "<group>"; };
+		A1D34935225D5F2C00651024 /* LMTTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTripViewController.swift; sourceTree = "<group>"; };
+		A1D3493C225D61B100651024 /* LMTHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTHomeViewModel.swift; sourceTree = "<group>"; };
+		A1D3493F225D632A00651024 /* LMTTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTableView.swift; sourceTree = "<group>"; };
+		A1D34945225D65BE00651024 /* LMTTripCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTripCellViewModel.swift; sourceTree = "<group>"; };
+		A1D34948225D65ED00651024 /* LMTTripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTripTableViewCell.swift; sourceTree = "<group>"; };
+		A1D3494A225D66D600651024 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1D3494C225D6DA900651024 /* LMTBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTBinding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1D3487C225D59DD00651024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11BA95F22600B610058DA7B /* TriplyServiceKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D34890225D59DE00651024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D3489B225D59DE00651024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11BA95722600B4E0058DA7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11BA95C22600B4F0058DA7B /* TriplyServiceKit.framework */,
+				A11BA95E22600B4F0058DA7B /* TriplyServiceKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D34876225D59DD00651024 = {
+			isa = PBXGroup;
+			children = (
+				A1D34928225D5DAF00651024 /* LMTRequestKit.xcodeproj */,
+				A11BA95622600B4E0058DA7B /* TriplyServiceKit.xcodeproj */,
+				A1D34881225D59DD00651024 /* Triply */,
+				A1D34896225D59DE00651024 /* TriplyTests */,
+				A1D348A1225D59DE00651024 /* TriplyUITests */,
+				A1D34880225D59DD00651024 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1D34880225D59DD00651024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D3487F225D59DD00651024 /* Triply.app */,
+				A1D34893225D59DE00651024 /* TriplyTests.xctest */,
+				A1D3489E225D59DE00651024 /* TriplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D34881225D59DD00651024 /* Triply */ = {
+			isa = PBXGroup;
+			children = (
+				A1D3493B225D61A200651024 /* View Models */,
+				A1D34947225D65DA00651024 /* Cells */,
+				A1D34937225D617700651024 /* View Controllers */,
+				A1D3493E225D630800651024 /* Custom Elements */,
+				A1D34938225D618700651024 /* Support Files */,
+			);
+			path = Triply;
+			sourceTree = "<group>";
+		};
+		A1D34896225D59DE00651024 /* TriplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D34897225D59DE00651024 /* TriplyTests.swift */,
+				A1D34899225D59DE00651024 /* Info.plist */,
+			);
+			path = TriplyTests;
+			sourceTree = "<group>";
+		};
+		A1D348A1225D59DE00651024 /* TriplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D348A2225D59DE00651024 /* TriplyUITests.swift */,
+				A1D348A4225D59DE00651024 /* Info.plist */,
+			);
+			path = TriplyUITests;
+			sourceTree = "<group>";
+		};
+		A1D34929225D5DAF00651024 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D3492E225D5DAF00651024 /* LMTRequestKit.framework */,
+				A1D34930225D5DAF00651024 /* LMTRequestKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D34937225D617700651024 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1D348B0225D5A9A00651024 /* LMTHomeViewController.swift */,
+				A1D34935225D5F2C00651024 /* LMTTripViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A1D34938225D618700651024 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1D3494C225D6DA900651024 /* LMTBinding.swift */,
+				A1D3494A225D66D600651024 /* Default-568h@2x.png */,
+				A1D34882225D59DD00651024 /* AppDelegate.swift */,
+				A1D34886225D59DD00651024 /* Main.storyboard */,
+				A1D34889225D59DE00651024 /* Assets.xcassets */,
+				A1D3488B225D59DE00651024 /* LaunchScreen.storyboard */,
+				A1D3488E225D59DE00651024 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		A1D3493B225D61A200651024 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1D34944225D65A700651024 /* Cells */,
+				A1D3493C225D61B100651024 /* LMTHomeViewModel.swift */,
+				A1B4459E22601D7200AE7FDE /* LMTTripViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		A1D3493E225D630800651024 /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				A1D3493F225D632A00651024 /* LMTTableView.swift */,
+				A174AE672260262C00EAA2AF /* LMTLabel.swift */,
+				A1B4459C2260195800AE7FDE /* LMTView.swift */,
+				A1B445A022601FDD00AE7FDE /* LMTImageView.swift */,
+			);
+			path = "Custom Elements";
+			sourceTree = "<group>";
+		};
+		A1D34944225D65A700651024 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1D34945225D65BE00651024 /* LMTTripCellViewModel.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A1D34947225D65DA00651024 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1D34948225D65ED00651024 /* LMTTripTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1D3487E225D59DD00651024 /* Triply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D348A7225D59DE00651024 /* Build configuration list for PBXNativeTarget "Triply" */;
+			buildPhases = (
+				A1D3487B225D59DD00651024 /* Sources */,
+				A1D3487C225D59DD00651024 /* Frameworks */,
+				A1D3487D225D59DD00651024 /* Resources */,
+				A1D348D1225D5ACF00651024 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A11BA96222600B610058DA7B /* PBXTargetDependency */,
+			);
+			name = Triply;
+			productName = Triply;
+			productReference = A1D3487F225D59DD00651024 /* Triply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D34892225D59DE00651024 /* TriplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D348AA225D59DE00651024 /* Build configuration list for PBXNativeTarget "TriplyTests" */;
+			buildPhases = (
+				A1D3488F225D59DE00651024 /* Sources */,
+				A1D34890225D59DE00651024 /* Frameworks */,
+				A1D34891225D59DE00651024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D34895225D59DE00651024 /* PBXTargetDependency */,
+			);
+			name = TriplyTests;
+			productName = TriplyTests;
+			productReference = A1D34893225D59DE00651024 /* TriplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1D3489D225D59DE00651024 /* TriplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D348AD225D59DE00651024 /* Build configuration list for PBXNativeTarget "TriplyUITests" */;
+			buildPhases = (
+				A1D3489A225D59DE00651024 /* Sources */,
+				A1D3489B225D59DE00651024 /* Frameworks */,
+				A1D3489C225D59DE00651024 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D348A0225D59DE00651024 /* PBXTargetDependency */,
+			);
+			name = TriplyUITests;
+			productName = TriplyUITests;
+			productReference = A1D3489E225D59DE00651024 /* TriplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D34877225D59DD00651024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Limitless Studios";
+				TargetAttributes = {
+					A1D3487E225D59DD00651024 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A1D34892225D59DE00651024 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A1D3487E225D59DD00651024;
+					};
+					A1D3489D225D59DE00651024 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A1D3487E225D59DD00651024;
+					};
+				};
+			};
+			buildConfigurationList = A1D3487A225D59DD00651024 /* Build configuration list for PBXProject "Triply" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1D34876225D59DD00651024;
+			productRefGroup = A1D34880225D59DD00651024 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A1D34929225D5DAF00651024 /* Products */;
+					ProjectRef = A1D34928225D5DAF00651024 /* LMTRequestKit.xcodeproj */;
+				},
+				{
+					ProductGroup = A11BA95722600B4E0058DA7B /* Products */;
+					ProjectRef = A11BA95622600B4E0058DA7B /* TriplyServiceKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A1D3487E225D59DD00651024 /* Triply */,
+				A1D34892225D59DE00651024 /* TriplyTests */,
+				A1D3489D225D59DE00651024 /* TriplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A11BA95C22600B4F0058DA7B /* TriplyServiceKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TriplyServiceKit.framework;
+			remoteRef = A11BA95B22600B4F0058DA7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A11BA95E22600B4F0058DA7B /* TriplyServiceKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TriplyServiceKitTests.xctest;
+			remoteRef = A11BA95D22600B4F0058DA7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D3492E225D5DAF00651024 /* LMTRequestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LMTRequestKit.framework;
+			remoteRef = A1D3492D225D5DAF00651024 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1D34930225D5DAF00651024 /* LMTRequestKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LMTRequestKitTests.xctest;
+			remoteRef = A1D3492F225D5DAF00651024 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1D3487D225D59DD00651024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D3488D225D59DE00651024 /* LaunchScreen.storyboard in Resources */,
+				A1D3494B225D66D600651024 /* Default-568h@2x.png in Resources */,
+				A1D3488A225D59DE00651024 /* Assets.xcassets in Resources */,
+				A1D34888225D59DD00651024 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D34891225D59DE00651024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D3489C225D59DE00651024 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D3487B225D59DD00651024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D3494D225D6DA900651024 /* LMTBinding.swift in Sources */,
+				A1B4459F22601D7200AE7FDE /* LMTTripViewModel.swift in Sources */,
+				A174AE682260262C00EAA2AF /* LMTLabel.swift in Sources */,
+				A1D34936225D5F2C00651024 /* LMTTripViewController.swift in Sources */,
+				A1D34940225D632A00651024 /* LMTTableView.swift in Sources */,
+				A1D34883225D59DD00651024 /* AppDelegate.swift in Sources */,
+				A1B4459D2260195800AE7FDE /* LMTView.swift in Sources */,
+				A1D34949225D65ED00651024 /* LMTTripTableViewCell.swift in Sources */,
+				A1D348B1225D5A9A00651024 /* LMTHomeViewController.swift in Sources */,
+				A1D3493D225D61B100651024 /* LMTHomeViewModel.swift in Sources */,
+				A1D34946225D65BE00651024 /* LMTTripCellViewModel.swift in Sources */,
+				A1B445A122601FDD00AE7FDE /* LMTImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D3488F225D59DE00651024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D34898225D59DE00651024 /* TriplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D3489A225D59DE00651024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D348A3225D59DE00651024 /* TriplyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A11BA96222600B610058DA7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TriplyServiceKit;
+			targetProxy = A11BA96122600B610058DA7B /* PBXContainerItemProxy */;
+		};
+		A1D34895225D59DE00651024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D3487E225D59DD00651024 /* Triply */;
+			targetProxy = A1D34894225D59DE00651024 /* PBXContainerItemProxy */;
+		};
+		A1D348A0225D59DE00651024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D3487E225D59DD00651024 /* Triply */;
+			targetProxy = A1D3489F225D59DE00651024 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1D34886225D59DD00651024 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D34887225D59DD00651024 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1D3488B225D59DE00651024 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D3488C225D59DE00651024 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1D348A5225D59DE00651024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1D348A6225D59DE00651024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1D348A8225D59DE00651024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				INFOPLIST_FILE = "Triply/Support Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.Triply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1D348A9225D59DE00651024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				INFOPLIST_FILE = "Triply/Support Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.Triply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1D348AB225D59DE00651024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				INFOPLIST_FILE = TriplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.TriplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triply.app/Triply";
+			};
+			name = Debug;
+		};
+		A1D348AC225D59DE00651024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				INFOPLIST_FILE = TriplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.TriplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triply.app/Triply";
+			};
+			name = Release;
+		};
+		A1D348AE225D59DE00651024 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				INFOPLIST_FILE = TriplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.TriplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triply;
+			};
+			name = Debug;
+		};
+		A1D348AF225D59DE00651024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				INFOPLIST_FILE = TriplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.TriplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1D3487A225D59DD00651024 /* Build configuration list for PBXProject "Triply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D348A5225D59DE00651024 /* Debug */,
+				A1D348A6225D59DE00651024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D348A7225D59DE00651024 /* Build configuration list for PBXNativeTarget "Triply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D348A8225D59DE00651024 /* Debug */,
+				A1D348A9225D59DE00651024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D348AA225D59DE00651024 /* Build configuration list for PBXNativeTarget "TriplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D348AB225D59DE00651024 /* Debug */,
+				A1D348AC225D59DE00651024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D348AD225D59DE00651024 /* Build configuration list for PBXNativeTarget "TriplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D348AE225D59DE00651024 /* Debug */,
+				A1D348AF225D59DE00651024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1D34877225D59DD00651024 /* Project object */;
+}
