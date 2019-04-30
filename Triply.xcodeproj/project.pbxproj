@@ -100,6 +100,7 @@
 /* Begin PBXFileReference section */
 		A11BA95622600B4E0058DA7B /* TriplyServiceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TriplyServiceKit.xcodeproj; path = TriplyServiceKit/TriplyServiceKit.xcodeproj; sourceTree = "<group>"; };
 		A174AE672260262C00EAA2AF /* LMTLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTLabel.swift; sourceTree = "<group>"; };
+		A1999E9E2278251400B17618 /* Triply.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Triply.entitlements; sourceTree = "<group>"; };
 		A1B4459C2260195800AE7FDE /* LMTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTView.swift; sourceTree = "<group>"; };
 		A1B4459E22601D7200AE7FDE /* LMTTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTripViewModel.swift; sourceTree = "<group>"; };
 		A1B445A022601FDD00AE7FDE /* LMTImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTImageView.swift; sourceTree = "<group>"; };
@@ -188,6 +189,7 @@
 		A1D34881225D59DD00651024 /* Triply */ = {
 			isa = PBXGroup;
 			children = (
+				A1999E9E2278251400B17618 /* Triply.entitlements */,
 				A1D3493B225D61A200651024 /* View Models */,
 				A1D34947225D65DA00651024 /* Cells */,
 				A1D34937225D617700651024 /* View Controllers */,
@@ -356,6 +358,11 @@
 				TargetAttributes = {
 					A1D3487E225D59DD00651024 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A1D34892225D59DE00651024 = {
 						CreatedOnToolsVersion = 10.1;
@@ -655,14 +662,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Triply/Triply.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				DEVELOPMENT_TEAM = CQD8Z7UVJ4;
 				INFOPLIST_FILE = "Triply/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.Triply;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LimitlessStudios.Triply;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -674,14 +682,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Triply/Triply.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RGKZPK5HSU;
+				DEVELOPMENT_TEAM = CQD8Z7UVJ4;
 				INFOPLIST_FILE = "Triply/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LimitlessStudios.Triply;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LimitlessStudios.Triply;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

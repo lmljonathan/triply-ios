@@ -12,6 +12,7 @@
 		A11BA94D22600B4E0058DA7B /* TriplyServiceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A11BA93F22600B4E0058DA7B /* TriplyServiceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A11BA96522600B7C0058DA7B /* LMTRequestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11BA96422600B7C0058DA7B /* LMTRequestKit.framework */; };
 		A11BA96822600C5D0058DA7B /* LMTTripListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BA96722600C5D0058DA7B /* LMTTripListService.swift */; };
+		A1999EA02278258D00B17618 /* LMTPushNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1999E9F2278258D00B17618 /* LMTPushNotificationService.swift */; };
 		A1B4459B22600D3F00AE7FDE /* LMTTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4459A22600D3F00AE7FDE /* LMTTrip.swift */; };
 		A1B445A42260241D00AE7FDE /* LMTRequestKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = A11BA96422600B7C0058DA7B /* LMTRequestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1CB4AD42277A66100BD9418 /* LMTPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB4AD32277A66100BD9418 /* LMTPlace.swift */; };
@@ -49,6 +50,7 @@
 		A11BA94C22600B4E0058DA7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11BA96422600B7C0058DA7B /* LMTRequestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LMTRequestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11BA96722600C5D0058DA7B /* LMTTripListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTripListService.swift; sourceTree = "<group>"; };
+		A1999E9F2278258D00B17618 /* LMTPushNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTPushNotificationService.swift; sourceTree = "<group>"; };
 		A1B4459A22600D3F00AE7FDE /* LMTTrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMTTrip.swift; sourceTree = "<group>"; };
 		A1CB4AD32277A66100BD9418 /* LMTPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTPlace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				A11BA96722600C5D0058DA7B /* LMTTripListService.swift */,
+				A1999E9F2278258D00B17618 /* LMTPushNotificationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1999EA02278258D00B17618 /* LMTPushNotificationService.swift in Sources */,
 				A1CB4AD42277A66100BD9418 /* LMTPlace.swift in Sources */,
 				A1B4459B22600D3F00AE7FDE /* LMTTrip.swift in Sources */,
 				A11BA96822600C5D0058DA7B /* LMTTripListService.swift in Sources */,
