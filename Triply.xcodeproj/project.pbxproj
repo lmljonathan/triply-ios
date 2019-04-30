@@ -13,6 +13,8 @@
 		A1B4459D2260195800AE7FDE /* LMTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4459C2260195800AE7FDE /* LMTView.swift */; };
 		A1B4459F22601D7200AE7FDE /* LMTTripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B4459E22601D7200AE7FDE /* LMTTripViewModel.swift */; };
 		A1B445A122601FDD00AE7FDE /* LMTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B445A022601FDD00AE7FDE /* LMTImageView.swift */; };
+		A1CB4AD62277A6EC00BD9418 /* LMTPlaceCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB4AD52277A6EC00BD9418 /* LMTPlaceCellViewModel.swift */; };
+		A1CB4ADB2277A75F00BD9418 /* LMTPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CB4ADA2277A75F00BD9418 /* LMTPlaceTableViewCell.swift */; };
 		A1D34883225D59DD00651024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D34882225D59DD00651024 /* AppDelegate.swift */; };
 		A1D34888225D59DD00651024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1D34886225D59DD00651024 /* Main.storyboard */; };
 		A1D3488A225D59DE00651024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D34889225D59DE00651024 /* Assets.xcassets */; };
@@ -101,6 +103,8 @@
 		A1B4459C2260195800AE7FDE /* LMTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTView.swift; sourceTree = "<group>"; };
 		A1B4459E22601D7200AE7FDE /* LMTTripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTTripViewModel.swift; sourceTree = "<group>"; };
 		A1B445A022601FDD00AE7FDE /* LMTImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTImageView.swift; sourceTree = "<group>"; };
+		A1CB4AD52277A6EC00BD9418 /* LMTPlaceCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTPlaceCellViewModel.swift; sourceTree = "<group>"; };
+		A1CB4ADA2277A75F00BD9418 /* LMTPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMTPlaceTableViewCell.swift; sourceTree = "<group>"; };
 		A1D3487F225D59DD00651024 /* Triply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D34882225D59DD00651024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1D34887225D59DD00651024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -268,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				A1D34945225D65BE00651024 /* LMTTripCellViewModel.swift */,
+				A1CB4AD52277A6EC00BD9418 /* LMTPlaceCellViewModel.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				A1D34948225D65ED00651024 /* LMTTripTableViewCell.swift */,
+				A1CB4ADA2277A75F00BD9418 /* LMTPlaceTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -455,8 +461,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CB4AD62277A6EC00BD9418 /* LMTPlaceCellViewModel.swift in Sources */,
 				A1D3494D225D6DA900651024 /* LMTBinding.swift in Sources */,
 				A1B4459F22601D7200AE7FDE /* LMTTripViewModel.swift in Sources */,
+				A1CB4ADB2277A75F00BD9418 /* LMTPlaceTableViewCell.swift in Sources */,
 				A174AE682260262C00EAA2AF /* LMTLabel.swift in Sources */,
 				A1D34936225D5F2C00651024 /* LMTTripViewController.swift in Sources */,
 				A1D34940225D632A00651024 /* LMTTableView.swift in Sources */,

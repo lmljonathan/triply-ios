@@ -50,6 +50,20 @@ class LMTTripViewController: UIViewController {
     }
 }
 
+extension LMTTripViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.numberOfCells
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: LMTPlaceTableViewCell.reuseIdentifier,
+                                                 for: indexPath) as! LMTPlaceTableViewCell
+        let cellViewModel = viewModel.getCellViewModel(at: indexPath)
+        cell.configure(with: cellViewModel)
+        return cell
+    }
+}
+
 extension LMTTripViewController {
     class TripHeaderView: LMTView {
         var backgroundImageView: LMTImageView
